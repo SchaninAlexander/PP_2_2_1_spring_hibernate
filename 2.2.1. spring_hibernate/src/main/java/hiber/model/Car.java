@@ -19,6 +19,7 @@ public class Car{
     @OneToOne
     private User user;
 
+
     public Car() {
 
     }
@@ -47,6 +48,7 @@ public class Car{
     public User getUser() {
         return user;
     }
+
 
     public User setUser(User user) {
         this.user = user;
